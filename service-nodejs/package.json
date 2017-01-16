@@ -6,7 +6,7 @@
     "install" : "nsp check"
   },
   "dependencies" : {
-    "keycloak-connect": "*",
+    "keycloak-connect": "file:../path-to-keycloak-connect-x.x.x-redhat",
     "body-parser": "^1.13.3",
     "express": "^4.13.3",
     "express-session": "^1.14.2",

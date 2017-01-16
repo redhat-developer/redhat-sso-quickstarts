@@ -30,7 +30,13 @@ All you need to build this project is Node.js 4.0.0 or later.
 Configuration in RH-SSO
 -----------------------
 
-Prior to running the quickstart you need to create a client in RH-SSO and download the installation file.
+Prior to running the quickstart download the Node.js adapter and change `package.json` file:
+
+```
+"keycloak-connect": "file:../path-to-keycloak-connect-x.x.x-redhat"
+```
+
+Next, create a client in RH-SSO and download the installation file.
 
 The following steps shows how to create the client required for this quickstart:
 
