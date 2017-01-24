@@ -53,6 +53,8 @@
         <module>app-profile-jee-vanilla</module>
         <module>app-profile-saml-jee-jsp</module>
         <module>service-jee-jaxrs</module>
+        <module>user-storage-simple</module>
+        <module>user-storage-jpa</module>
     </modules>
 
     <build>
