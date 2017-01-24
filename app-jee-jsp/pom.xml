@@ -21,7 +21,7 @@
 
     <groupId>com.redhat.rh-sso</groupId>
     <artifactId>rh-sso-app-jee-jsp</artifactId>
-    <version>7.0.0.GA</version>
+    <version>7.1.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>RH-SSO Quickstart: app-jee-jsp</name>
     <description>JSP Service Invocation Application</description>
@@ -48,8 +48,8 @@
     </repositories>
 
     <properties>
-        <version.rh-sso.bom>7.0.0.GA</version.rh-sso.bom>
-        <version.wildfly.maven.plugin>1.0.1.Final</version.wildfly.maven.plugin>
+        <version.rh-sso.bom>7.1.0-SNAPSHOT</version.rh-sso.bom>
+        <version.wildfly.maven.plugin>1.1.0.Beta1</version.wildfly.maven.plugin>
         <version.jboss.maven.plugin>7.4.Final</version.jboss.maven.plugin>
         <version.war.maven.plugin>2.6</version.war.maven.plugin>
         <version.enforcer.maven.plugin>1.4.1</version.enforcer.maven.plugin>
