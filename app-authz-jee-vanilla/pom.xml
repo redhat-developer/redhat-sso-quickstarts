@@ -21,7 +21,7 @@
 
     <groupId>com.redhat.rh-sso</groupId>
     <artifactId>rh-sso-app-authz-jee-vanilla</artifactId>
-    <version>7.0.0.GA</version>
+    <version>7.1.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>RH-SSO Quickstart: app-authz-jee-vanilla</name>
     <description>JSP Application Using Fine-grained Authorization</description>
