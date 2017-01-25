@@ -54,6 +54,8 @@
         <module>app-profile-saml-jee-jsp</module>
         <module>service-jee-jaxrs</module>
         <module>app-authz-jee-vanilla</module>
+        <module>user-storage-simple</module>
+        <module>user-storage-jpa</module>
     </modules>
 
     <build>
