@@ -11,7 +11,11 @@ Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>
 What is it?
 -----------
 
-This is an example of the User Storage SPI implemented using EJB and JPA. 
+This is an example of the User Storage SPI implemented using EJB and JPA.  It shows you how you might use these components
+to integrate RH-SSO with an existing external custom user database.  The example integrates with a simple relational
+database schema that has one user table that stores a username, email, phone number, and password for one particular user.
+Using the User Storage SPI this table is mapped to the RH-SSO user metamodel so that it can be consumed by the RH-SSO
+runtime. Before using this example, you should probably read the User Storage SPI chapter of our server developer guide.
 
 
 System Requirements
@@ -48,9 +52,17 @@ To deploy the provider, run the following maven command:
     mvn clean install wildfly:deploy
     ````
 
-You can run as many times as you want and the provider will be redeployed.
+If you want to play with and modify the example, simply rerun the maven deploy command above and the new version will be hot deployed.
 
-Login and go to the User Federation tab and you should now see your deployed provider in the add-provider list box.
-Add the provider, save it, then any new user you create will be stored and in the custom store you implemented.  You
-can modify the example and hot deploy it using the above maven command again.
+Enable the Provider for a Realm
+-------------------------------
+Login to the RH-SSO Admin Console and got to the User Federation tab.   You should now see your deployed provider in the add-provider list box.
+Add the provider, save it.  This will now enable the provider for the 'master' realm.  Because this provider implements the UserRegistrationProvider interface, any new user you create in the
+admin console or on the registration pages of RH-SSO, will be created in the custom store used by the provider.  If you go
+to the Users tab in the Admin Console and create a new user, you'll be able to see the provider in action.
+
+
+More Information
+----------------
+The User Storage SPI and how you can use Java EE to implement it is covered in detail in our server developer guide.
 
