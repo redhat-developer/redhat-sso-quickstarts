@@ -1,11 +1,11 @@
 service-jee-jaxrs: JAX-RS Service
 ===================================================
 
-Level: Beginner
-Technologies: JavaEE
-Summary: JAX-RS Service
-Target Product: RH-SSO, JBoss EAP
-Source: <https://github.com/keycloak/rh-sso-quickstarts>
+Level: Beginner  
+Technologies: JavaEE  
+Summary: JAX-RS Service  
+Target Product: RH-SSO, JBoss EAP  
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>  
 
 
 What is it?

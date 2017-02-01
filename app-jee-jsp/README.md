@@ -1,11 +1,11 @@
 app-jee-jsp: JSP Service Invocation Application
 =================================================
 
-Level: Beginner
-Technologies: JavaEE
-Summary: JSP Service Invocation Application
-Target Product: RH-SSO, JBoss EAP
-Source: <https://github.com/keycloak/rh-sso-quickstarts>
+Level: Beginner  
+Technologies: JavaEE  
+Summary: JSP Service Invocation Application  
+Target Product: RH-SSO, JBoss EAP  
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>  
 
 
 What is it?
@@ -58,7 +58,7 @@ As an alternative you can create the client by importing the file [client-import
 copying [config/keycloak-example.json](config/keycloak-example.json) to `config/keycloak.json`.
 
 Build and Deploy the Quickstart
---------------------------------
+-------------------------------
 
 1. Open a terminal and navigate to the root directory of this quickstart.
 2. The following shows the command to deploy the quickstart:
@@ -76,7 +76,7 @@ If you prefer to secure WARs via Keycloak subsystem:
    ````
 
 Access the Quickstart
-----------------------
+---------------------
 
 You can access the application with the following URL: <http://localhost:8080/app-jsp>.
 
@@ -90,7 +90,7 @@ If you invoke the endpoints without the required permissions an error will be sh
 
 
 Undeploy the Quickstart
---------------------
+-----------------------
 
 1. Open a terminal and navigate to the root directory of this quickstart.
 

@@ -1,11 +1,11 @@
 app-profile-jee-jsp: JSP Profile Application
 ================================================
 
-Level: Beginner
-Technologies: JavaEE
-Summary: JSP Profile Application
-Target Product: RH-SSO, JBoss EAP
-Source: <https://github.com/keycloak/rh-sso-quickstarts>
+Level: Beginner  
+Technologies: JavaEE  
+Summary: JSP Profile Application  
+Target Product: RH-SSO, JBoss EAP  
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>  
 
 
 What is it?

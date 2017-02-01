@@ -5,7 +5,7 @@ Level: Beginner
 Technologies: JavaEE  
 Summary: JSP Application Using Fine-grained Authorization  
 Target Product: RH-SSO, JBoss EAP  
-Source: <https://github.com/keycloak/rh-sso-quickstarts>  
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>  
 
 
 What is it?

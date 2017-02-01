@@ -5,7 +5,7 @@ Level: Beginner
 Technologies: JavaEE  
 Summary: JSP Profile Application with Basic Authentication  
 Target Product: RH-SSO, JBoss EAP  
-Source: <https://github.com/keycloak/rh-sso-quickstarts>  
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>  
 
 
 What is it?

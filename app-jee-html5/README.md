@@ -5,7 +5,7 @@ Level: Beginner
 Technologies: HTML5, JavaScript  
 Summary: HTML5 Service Invocation Application packaged as a WAR  
 Target Product: RH-SSO, JBoss EAP  
-Source: <https://github.com/keycloak/rh-sso-quickstarts>
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>  
 
 What is it?
 -----------

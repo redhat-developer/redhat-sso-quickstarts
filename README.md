@@ -126,12 +126,12 @@ One more step, if you want to access the examples with the admin user you need t
 
 Before starting the JBoss EAP server start by extracting the RH-SSO client adapter into it.
 
-For JBoss EAP 7 extract `RH-SSO-7.0.0.GA-eap7-adapter.zip` into EAP_HOME and for JBoss EAP 6.4 extract
-`RH-SSO-7.0.0.GA-eap6-adapter.zip` into EAP_HOME. 
+For JBoss EAP 7 extract `RH-SSO-7.1.0.GA-eap7-adapter.zip` into EAP_HOME and for JBoss EAP 6.4 extract
+`RH-SSO-7.1.0.GA-eap6-adapter.zip` into EAP_HOME. 
 
 If you plan to try the SAML examples you also need the SAML JBoss EAP adapter. To do this for JBoss EAP 7 extract
-`RH-SSO-7.0.0.GA-saml-eap7-adapter.zip` into EAP_HOME and for JBoss EAP 6.4 extract
-`RH-SSO-7.0.0.GA-saml-eap6-adapter.zip` into EAP_HOME.
+`RH-SSO-7.1.0.GA-saml-eap7-adapter.zip` into EAP_HOME and for JBoss EAP 6.4 extract
+`RH-SSO-7.1.0.GA-saml-eap6-adapter.zip` into EAP_HOME.
 
 The next step is to start JBoss EAP server:
 
@@ -171,6 +171,8 @@ The next step is to start JBoss EAP server:
 Examples
 --------
 
+* [app-authz-jee-servlet](app-authz-jee-servlet/README.md) - Servlet application using fine-grained authorization.
+* [app-authz-jee-vanilla](app-authz-jee-vanilla/README.md) - JSP application using fine-grained authorization.
 * [app-jee-html5](app-jee-html5/README.md) - HTML5 application that invokes the example service. Requires service example to be deployed.
 * [app-jee-jsp](app-jee-jsp/README.md) - JSP application packaged that invokes the example service. Requires service example to be deployed.
 * [app-profile-jee-html5](app-profile-jee-html5/README.md) - HTML5 application that displays user profile and token details.
@@ -178,6 +180,9 @@ Examples
 * [app-profile-jee-vanilla](app-profile-jee-vanilla/README.md) - JSP application configured with basic authentication. Shows how to secure an application with the client adapter subsystem.
 * [app-profile-saml-jee-jsp](app-profile-saml-jee-jsp/README.md) - JSP application that uses SAML and displays user profile.
 * [service-jee-jaxrs](service-jee-jaxrs/README.md) - JAX-RS Service with public and protected endpoints.
+* [service-nodejs](service-nodejs/README.md) - RESTful Service in Node.js with public and protected endpoints.
+* [user-storage-jpa](user-storage-jpa/README.md) - Example of the User Storage SPI implemented using EJB and JPA.
+* [user-storage-simple](user-storage-simple/README.md) - Example of User Storage SPI backend by a simple properties file. 
 
 
 Troubleshooting

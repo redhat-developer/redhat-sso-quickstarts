@@ -55,8 +55,8 @@
         <module>service-jee-jaxrs</module>
         <module>app-authz-jee-vanilla</module>
         <module>app-authz-jee-servlet</module>
-        <!--<module>user-storage-simple</module>-->
-        <!--<module>user-storage-jpa</module>-->
+        <module>user-storage-simple</module>
+        <module>user-storage-jpa</module>
     </modules>
 
     <build>

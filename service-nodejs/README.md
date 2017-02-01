@@ -1,11 +1,11 @@
 service-nodejs: Node.js Service
 ===================================================
 
-Level: Beginner
-Technologies: Node.js
-Summary: Node.js Service
-Target Product: RH-SSO, JBoss EAP
-Source: <https://github.com/keycloak/rh-sso-quickstarts>
+Level: Beginner  
+Technologies: Node.js  
+Summary: Node.js Service  
+Target Product: RH-SSO, JBoss EAP  
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>  
 
 
 What is it?
