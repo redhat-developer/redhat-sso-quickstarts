@@ -28,9 +28,9 @@ Build and Deploy the Quickstart
 You must first deploy the datasource it uses.
 Start up the RH-SSO server.  Then in the directory of this example type the following maven command:
 
-    ````
-    mvn -Padd-datasource install
-    ````
+   ````
+   mvn -Padd-datasource install
+   ````
 
 You only need to execute this maven command once.  If you execute this again, then you will get an error message that the datasource
 already exists.
