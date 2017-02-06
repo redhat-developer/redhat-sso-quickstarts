@@ -124,6 +124,9 @@ One more step, if you want to access the examples with the admin user you need t
 <a id="jboss-eap"></a>Start and Configure the JBoss EAP Server
 --------------------------------------------------------------
 
+NOTE: This step is needed just if you want your applications to be deployed on JBoss EAP Server. If you want to use JBoss Fuse, you 
+can skip this step and go directly to the [fuse](fuse/README.md).
+
 Before starting the JBoss EAP server start by extracting the RH-SSO client adapter into it.
 
 For JBoss EAP 7 extract `RH-SSO-7.1.0.GA-eap7-adapter.zip` into EAP_HOME and for JBoss EAP 6.4 extract
@@ -183,6 +186,7 @@ Examples
 * [service-nodejs](service-nodejs/README.md) - RESTful Service in Node.js with public and protected endpoints.
 * [user-storage-jpa](user-storage-jpa/README.md) - Example of the User Storage SPI implemented using EJB and JPA.
 * [user-storage-simple](user-storage-simple/README.md) - Example of User Storage SPI backend by a simple properties file. 
+* [fuse](fuse/README.md) - Set of quickstarts, which run on JBoss Fuse 6.3.0
 
 
 Troubleshooting
