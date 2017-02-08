@@ -1,11 +1,11 @@
 app-war-jsp: Servlet and JSP application packed as WAR 
 ======================================================
 
-Level: Beginner
-Technologies: Servlet, JSP
-Summary: Servlet and JSP application
-Target Product: RH-SSO,, JBoss Fuse
-Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>
+Level: Beginner  
+Technologies: Servlet, JSP  
+Summary: Servlet and JSP application  
+Target Product: RH-SSO, JBoss Fuse  
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>  
 
 
 What is it?

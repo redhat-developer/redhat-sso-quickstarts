@@ -1,11 +1,11 @@
 service-camel: Apache Camel Service
 ===================================
 
-Level: Beginner
-Technologies: Apache Camel, JBoss Fuse
-Summary: Apache Camel Service
-Target Product: RH-SSO, JBoss Fuse
-Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>
+Level: Beginner  
+Technologies: Apache Camel, JBoss Fuse  
+Summary: Apache Camel Service  
+Target Product: RH-SSO, JBoss Fuse  
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>  
 
 
 What is it?

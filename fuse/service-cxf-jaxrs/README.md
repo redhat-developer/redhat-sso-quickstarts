@@ -1,11 +1,11 @@
 service-cxf-jaxrs: Apache CXF JAX-RS Service
 ============================================
 
-Level: Beginner
-Technologies: Apache CXF, JavaEE, JBoss Fuse
-Summary: JAX-RS Service
-Target Product: RH-SSO, JBoss Fuse
-Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>
+Level: Beginner  
+Technologies: Apache CXF, JavaEE, JBoss Fuse  
+Summary: JAX-RS Service  
+Target Product: RH-SSO, JBoss Fuse  
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>  
 
 
 What is it?
