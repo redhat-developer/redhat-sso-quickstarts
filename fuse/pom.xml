@@ -20,7 +20,7 @@
 
     <groupId>com.redhat.rh-sso</groupId>
     <artifactId>rh-sso-fuse-parent</artifactId>
-    <version>7.1.0-SNAPSHOT</version>
+    <version>7.1.0.GA</version>
     <packaging>pom</packaging>
     <name>RH-SSO Quickstart: Fuse quickstarts parent</name>
     <description>Parent of the JBoss Fuse quickstarts</description>
@@ -39,7 +39,4 @@
         <module>app-war</module>
         <module>features</module>
     </modules>
-
-
-
 </project>

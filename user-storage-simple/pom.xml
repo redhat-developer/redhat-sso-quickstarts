@@ -21,7 +21,7 @@
 
     <groupId>com.redhat.rh-sso</groupId>
     <artifactId>rh-sso-user-storage-properties</artifactId>
-    <version>7.1.0-SNAPSHOT</version>
+    <version>7.1.0.GA</version>
     <packaging>jar</packaging>
     <name>RH-SSO Quickstart: user-storage-properties</name>
     <description>User Storage SPI Simple Example</description>
@@ -48,7 +48,7 @@
     </repositories>
     
     <properties>
-        <version.rh-sso.bom>7.1.0-SNAPSHOT</version.rh-sso.bom>
+        <version.rh-sso.bom>7.1.0.GA</version.rh-sso.bom>
         <version.wildfly.maven.plugin>1.1.0.Beta1</version.wildfly.maven.plugin>
         <version.compiler.maven.plugin>3.5.1</version.compiler.maven.plugin>
     </properties>
