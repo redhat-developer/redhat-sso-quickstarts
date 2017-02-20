@@ -25,8 +25,7 @@
 
     <import resource="classpath:META-INF/cxf/cxf.xml" />
 
-    <!-- TODO: should be rather provided in main Keycloak codebase -->
-    <bean id="keycloakConfigResolver" class="org.keycloak.quickstart.fuse.cxf.rs.BundleBasedKeycloakConfigResolver">
+    <bean id="keycloakConfigResolver" class="org.keycloak.adapters.osgi.BundleBasedKeycloakConfigResolver">
         <property name="bundleContext" ref="bundleContext" />
         <property name="configLocation" value="config/keycloak.json" />
     </bean>

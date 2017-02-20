@@ -23,8 +23,7 @@
        http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd
        http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint-2.17.1.xsd">
 
-    <!-- TODO: should be rather provided in main Keycloak codebase -->
-    <bean id="keycloakConfigResolver" class="org.keycloak.quickstart.fuse.camel.BundleBasedKeycloakConfigResolver">
+    <bean id="keycloakConfigResolver" class="org.keycloak.adapters.osgi.BundleBasedKeycloakConfigResolver">
         <property name="bundleContext" ref="blueprintBundleContext" />
         <property name="configLocation" value="config/keycloak.json" />
     </bean>
