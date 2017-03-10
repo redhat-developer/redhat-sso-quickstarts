@@ -104,7 +104,7 @@ You can use any REST service deployed anywhere. However for testing purposes, it
 
 So once you have at least one of those services deployed in the JBoss Fuse, you can configure the application to invoke against them.
 
-The service URL of the REST service can be changed via the system propery `service.url` . The Apache Camel service is deployed on `http://localhost:8383/service` by default. 
+The service URL of the REST service can be changed via the system property `service.url` . The Apache Camel service is deployed on `http://localhost:8383/service` by default. 
 So if you run this command in the JBoss Fuse Karaf terminal:
 ````
 dev:system-property service.url http://localhost:8383/service
