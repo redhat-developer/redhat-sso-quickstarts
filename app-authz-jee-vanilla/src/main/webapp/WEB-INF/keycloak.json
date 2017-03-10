@@ -1,6 +1,6 @@
 {
   "realm": "hello-world-authz",
-  "auth-server-url": "http://localhost:8080/auth",
+  "auth-server-url": "http://localhost:8180/auth",
   "ssl-required": "external",
   "resource": "hello-world-authz-service",
   "credentials": {

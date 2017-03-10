@@ -100,7 +100,7 @@ If you want to play around, try the following steps:
         * Add `Only Alice Policy` policy to the `Apply Policy` field
         * Change `Decision Strategy` from `Unanimous` to `Affirmative`. Click `Save`
     * Logout and log in again as `alice` user and try to access <http://localhost:8080/authz-servlet/protected/admin/onlyAdmin.jsp>
-* Revoke `alice` administrative permissions by changing the `Only Alice Logic` logic
+* Revoke `alice` administrative permissions by changing the `Only Alice Policy` logic
     * Click on `Policies` tab and select `Only Alice Policy`
         * Change `Logic` field from `Positive` to `Negative`. Click `Save`
     * Logout and log in again as `alice` user and try to access <http://localhost:8080/authz-servlet/protected/admin/onlyAdmin.jsp>
