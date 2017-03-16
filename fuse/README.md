@@ -37,7 +37,7 @@ Start and Configure the JBoss Fuse
 
 * Start the JBoss Fuse with commands:
 ````
-cd jboss-fuse-6.3.0.redhat-187/bin/
+cd jboss-fuse-6.3.0.redhat-224/bin/
 ./fuse
 ````
 Wait until JBoss Fuse is started and Karaf terminal shows up.
@@ -49,8 +49,16 @@ RHSSO_VERSION="<YOUR-RHSSO-VERSION-HERE>"
 ````
 For example:
 ````
-RHSSO_VERSION="7.1.0.GA"
+RHSSO_VERSION="2.5.4.Final-redhat-1"
 ````
+Then it's good to add your local maven repository to the Fuse. This is referred in following command with `file:///path/to/local/maven/repo` . 
+Typically the exact location is in `file:///home/yourusername/.m2/repository` on Linux.
+````
+config:edit org.ops4j.pax.url.mvn
+config:propset org.ops4j.pax.url.mvn.localRepository file:///path/to/local/maven/repo
+config:update
+````
+
 Then you can install the features:
 ````
 features:addurl mvn:org.keycloak/keycloak-osgi-features/$RHSSO_VERSION/xml/features
