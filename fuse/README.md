@@ -49,7 +49,7 @@ RHSSO_VERSION="<YOUR-RHSSO-VERSION-HERE>"
 ````
 For example:
 ````
-RHSSO_VERSION="2.5.4.Final-redhat-1"
+RHSSO_VERSION="2.5.5.Final-redhat-1"
 ````
 Then it's good to add your local maven repository to the Fuse. This is referred in following command with `file:///path/to/local/maven/repo` . 
 Typically the exact location is in `file:///home/yourusername/.m2/repository` on Linux.

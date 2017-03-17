@@ -20,7 +20,7 @@
 
     <groupId>com.redhat.rh-sso</groupId>
     <artifactId>rh-sso-service-cxf-jaxrs</artifactId>
-    <version>7.1.0-SNAPSHOT</version>
+    <version>7.1.0.GA</version>
     <packaging>bundle</packaging>
     <name>RH-SSO Quickstart: JBoss Fuse Service - CXF JAXRS</name>
     <description>JBoss Fuse Apache CXF JAXRS Service Secured by RH-SSO</description>
@@ -47,7 +47,7 @@
     </repositories>
 
     <properties>
-        <version.rh-sso.bom>7.1.0-SNAPSHOT</version.rh-sso.bom>
+        <version.rh-sso.bom>7.1.0.GA</version.rh-sso.bom>
         <maven.compiler.plugin.version>3.1</maven.compiler.plugin.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
