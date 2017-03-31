@@ -48,6 +48,7 @@
 
     <properties>
         <version.rh-sso.bom>7.1.0.GA</version.rh-sso.bom>
+        <version.jboss.fuse>6.3.0.redhat-224</version.jboss.fuse>
         <maven.compiler.plugin.version>3.1</maven.compiler.plugin.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -90,6 +91,13 @@
                 <groupId>com.redhat.bom.rh-sso</groupId>
                 <artifactId>rh-sso-fuse-bom</artifactId>
                 <version>${version.rh-sso.bom}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss.fuse.bom</groupId>
+                <artifactId>jboss-fuse-parent</artifactId>
+                <version>${version.jboss.fuse}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
