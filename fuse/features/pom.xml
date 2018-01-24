@@ -20,9 +20,9 @@
 
     <groupId>org.keycloak.quickstarts</groupId>
     <artifactId>keycloak-fuse-features</artifactId>
-    <version>3.4.3.Final-SNAPSHOT</version>
+    <version>3.4.3.Final-redhat-2</version>
     <packaging>pom</packaging>
-    <name>Keycloak Quickstart: Fuse Features</name>
+    <name>Red Hat SSO Quickstart: Fuse Features</name>
     <description>JBoss Fuse features to simplify install all Keycloak Fuse quickstarts</description>
 
     <licenses>

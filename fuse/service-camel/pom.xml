@@ -19,16 +19,16 @@
     <parent>
         <artifactId>keycloak-fuse-parent</artifactId>
         <groupId>org.keycloak.quickstarts</groupId>
-        <version>3.4.3.Final-SNAPSHOT</version>
+        <version>3.4.3.Final-redhat-2</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>keycloak-fuse-service-camel</artifactId>
-    <version>3.4.3.Final-SNAPSHOT</version>
+    <version>3.4.3.Final-redhat-2</version>
     <packaging>bundle</packaging>
-    <name>Keycloak Quickstart: JBoss Fuse Service - Camel</name>
+    <name>Red Hat SSO Quickstart: JBoss Fuse Service - Camel</name>
     <description>JBoss Fuse Apache Camel Service secured by Keycloak</description>
 
     <licenses>

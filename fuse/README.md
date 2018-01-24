@@ -4,14 +4,14 @@ JBoss Fuse Applications
 Level: Beginner  
 Technologies: Servlet, Apache Camel, Apache CXF  
 Summary: JBoss Fuse Quickstarts  
-Target Product: <span>Keycloak</span>, JBoss Fuse  
+Target Product: Red Hat SSO, JBoss Fuse  
 Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>  
 
 
 What is it?
 -----------
 
-This is set of quickstarts, which show various kinds of web applications and services deployed on JBoss Fuse, which are secured by <span>Keycloak</span>. See the individual subdirectories
+This is set of quickstarts, which show various kinds of web applications and services deployed on JBoss Fuse, which are secured by Red Hat SSO. See the individual subdirectories
 for the more detailed info about particular applications and needed steps to configure and deploy them. This README contains the basic configuration steps, which 
 are common for all JBoss Fuse quickstarts.
 
@@ -24,8 +24,8 @@ All you need to build this project is Java 8.0 (Java SDK 1.8) or later and Maven
 Start and Configure the Wildfly
 -------------------------------
 
-It is assumed that you already did the basic steps from the [Base README](../README.md) from the section "Start the <span>Keycloak</span> Server" .
-The individual submodules will contain more specific steps for <span>Keycloak</span> server for individual Fuse quickstart applications. Usually it's about setup client 
+It is assumed that you already did the basic steps from the [Base README](../README.md) from the section "Start the Red Hat SSO Server" .
+The individual submodules will contain more specific steps for Red Hat SSO server for individual Fuse quickstart applications. Usually it's about setup client 
 and export `keycloak.json` file from it.
 
 Start and Configure the JBoss Fuse

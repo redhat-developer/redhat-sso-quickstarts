@@ -21,9 +21,9 @@
 
     <groupId>org.keycloak.quickstarts</groupId>
     <artifactId>keycloak-quickstart-parent</artifactId>
-    <version>3.4.3.Final-SNAPSHOT</version>
+    <version>3.4.3.Final-redhat-2</version>
     <packaging>pom</packaging>
-    <name>Keycloak Quickstart: parent</name>
+    <name>Red Hat SSO Quickstart: parent</name>
     <description>Parent</description>
 
     <licenses>
@@ -143,16 +143,20 @@
         <module>app-authz-jee-servlet</module>
         <module>app-authz-jee-vanilla</module>
     </modules>
-
+ 
     <repositories>
         <repository>
-            <id>jboss</id>
-            <url>https://repository.jboss.org/nexus/content/groups/public/</url>
+            <id>jboss-enterprise-maven-repository</id>
+            <url>https://maven.repository.redhat.com/ga/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
         </repository>
     </repositories>
+
 
     <build>
         <pluginManagement>
@@ -213,7 +217,20 @@
                 <module>service-springboot-rest</module>
                 <module>app-springboot</module>
                 <module>app-authz-springboot</module>
-            </modules>
+    </modules>
+ 
+    <repositories>
+        <repository>
+            <id>jboss-enterprise-maven-repository</id>
+            <url>https://maven.repository.redhat.com/ga/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
         </profile>
         <profile>
             <id>jboss-cli-executable</id>
