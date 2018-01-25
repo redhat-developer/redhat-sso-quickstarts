@@ -21,7 +21,7 @@ runtime. Before using this example, you should probably read the User Storage SP
 System Requirements
 -------------------
 
-You need to have Red Hat SSO 3.1.Final running.
+You need to have Red Hat SSO running.
 
 All you need to build this project is Java 8.0 (Java SDK 1.8) or later and Maven 3.1.1 or later.
 

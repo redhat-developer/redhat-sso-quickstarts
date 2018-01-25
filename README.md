@@ -7,7 +7,7 @@ that can be used as a reference for your own project.
 Introduction
 ------------
 
-These quickstarts run on JBoss EAP 10.
+These quickstarts run on JBoss EAP 7.1.0.
 
 Prior to running the quickstarts you should read this entire document and have completed the following steps:
 
