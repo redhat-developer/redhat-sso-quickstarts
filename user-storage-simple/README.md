@@ -5,7 +5,7 @@ Level: Beginner
 Technologies: JavaEE  
 Summary: User Storage SPI Simple Example  
 Target Product: Red Hat SSO  
-Source: <https://github.com/keycloak/keycloak-quickstarts>  
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>
 
 
 What is it?
@@ -63,7 +63,7 @@ edit the file yourself to add the username/password pairs you want.
 Integration test of the Quickstart
 ----------------------------------
 
-1. Make sure you have an Keycloak server running with an admin user in the `master` realm or use the provided docker image
+1. Make sure you have an Red Hat SSO server running with an admin user in the `master` realm or use the provided docker image
 2. Run `mvn test -Pkeycloak-remote`
 
 More Information

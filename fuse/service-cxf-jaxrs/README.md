@@ -4,14 +4,14 @@ service-cxf-jaxrs: Apache CXF JAX-RS Service
 Level: Beginner
 Technologies: Apache CXF, JavaEE, JBoss Fuse
 Summary: JAX-RS Service
-Target Product: Keycloak, JBoss Fuse
+Target Product: Red Hat SSO, JBoss Fuse
 Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>
 
 
 What is it?
 -----------
 
-The `service-cxf-jaxrs` quickstart demonstrates how to write a Apache CXF JAX-RS service that is secured with Keycloak and deploy
+The `service-cxf-jaxrs` quickstart demonstrates how to write a Apache CXF JAX-RS service that is secured with Red Hat SSO and deploy
 it to JBoss Fuse.
 
 There are 3 endpoints exposed by the service:
@@ -31,14 +31,14 @@ You need to have JBoss Fuse 6.3.0
 All you need to build this project is Java 8.0 (Java SDK 1.8) or later and Maven 3.1.1 or later.
 
 
-Configuration in Keycloak
+Configuration in Red Hat SSO
 -----------------------
 
-Prior to running the quickstart you need to create a client in Keycloak and download the installation file.
+Prior to running the quickstart you need to create a client in Red Hat SSO and download the installation file.
 
 The following steps shows how to create the client required for this quickstart:
 
-* Open the Keycloak admin console
+* Open the Red Hat SSO admin console
 * Select `Clients` from the menu
 * Click `Create`
 * Add the following values:
