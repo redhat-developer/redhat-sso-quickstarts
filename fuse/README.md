@@ -42,7 +42,7 @@ export JBOSS_FUSE_HOME=/path/to/jboss-fuse-6.3.0.redhat-224
 
 * Set up each client based on `Build and Deploy` section
 
-* Install the common set of Keycloak features and start the server
+* Install the common set of Red Hat SSO features and start the server
 ```
 mvn clean install -Pfuse-server
 ```

@@ -5,8 +5,7 @@ Level: Beginner
 Technologies: JavaEE  
 Summary: Servlet Application Using Fine-grained Authorization  
 Target Product: Red Hat SSO, JBoss EAP
-Source: <https://github.com/keycloak/keycloak-quickstarts>  
-
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>
 
 What is it?
 -----------

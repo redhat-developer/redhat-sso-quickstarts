@@ -5,7 +5,7 @@ Level: Beginner
 Technologies: JavaEE, EJB, JPA  
 Summary: User Storage Provider with EJB and JPA  
 Target Product: Red Hat SSO  
-Source: <https://github.com/keycloak/keycloak-quickstarts>  
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>
 
 
 What is it?
@@ -64,7 +64,7 @@ to the Users tab in the Admin Console and create a new user, you'll be able to s
 Integration test of the Quickstart
 ----------------------------------
 
-1. Make sure you have an Keycloak server running with an admin user in the `master` realm or use the provided docker image
+1. Make sure you have an Red Hat SSO server running with an admin user in the `master` realm or use the provided docker image
 2. Run `mvn test -Pkeycloak-remote`
 
 More Information

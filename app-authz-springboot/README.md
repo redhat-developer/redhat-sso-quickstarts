@@ -5,7 +5,7 @@ Level: Beginner
 Technologies: SpringBoot, Spring MVC, Spring Security
 Summary: SpringBoot, Spring MVC, Spring Security
 Target Product: Red Hat SSO
-Source: <https://github.com/keycloak/Keycloak-quickstarts>
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>
 
 
 What is it?
@@ -15,7 +15,7 @@ The `app-authz-springboot` quickstart demonstrates how to write a SpringBoot Web
 authorization aspects are managed by Red Hat SSO.
 
 This application tries to focus on the authorization features provided by Red Hat SSO Authorization Services, where resources are
-protected by a set of permissions and policies defined in Keycloak itself and access to these resources are enforced by a policy enforcer
+protected by a set of permissions and policies defined in Red Hat SSO itself and access to these resources are enforced by a policy enforcer
 that intercepts every single request to the application.
 
 In this application, there are three paths protected by specific permissions in Red Hat SSO:

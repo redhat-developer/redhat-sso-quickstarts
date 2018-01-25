@@ -4,16 +4,16 @@ app-war-jsp: Servlet and JSP application packed as WAR
 Level: Beginner
 Technologies: Servlet, JSP
 Summary: Servlet and JSP application
-Target Product: Keycloak, JBoss Fuse
+Target Product: Red Hat SSO, JBoss Fuse
 Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>
 
 
 What is it?
 -----------
 
-The `app-war-jsp` quickstart demonstrates how to write a Servlet JSP application, which is packaged as a WAR. The application will be secured by Keycloak and deployed to JBoss Fuse.
+The `app-war-jsp` quickstart demonstrates how to write a Servlet JSP application, which is packaged as a WAR. The application will be secured by Red Hat SSO and deployed to JBoss Fuse.
 
-The application provides simple UI where you can login/logout and see Account management built-in Keycloak page. Also it allows
+The application provides simple UI where you can login/logout and see Account management built-in Red Hat SSO page. Also it allows
 you to invoke service REST endpoint, which will be typically provided either by Apache Camel or Apache CXF service quickstarts.
 
 
@@ -25,14 +25,14 @@ You need to have JBoss Fuse 6.3.0
 All you need to build this project is Java 8.0 (Java SDK 1.8) or later and Maven 3.1.1 or later.
 
 
-Configuration in Keycloak
+Configuration in Red Hat SSO
 -----------------------
 
-Prior to running the quickstart you need to create a client in Keycloak and download the installation file.
+Prior to running the quickstart you need to create a client in Red Hat SSO and download the installation file.
 
 The following steps shows how to create the client required for this quickstart:
 
-* Open the Keycloak admin console
+* Open the Red Hat SSO admin console
 * Select `Clients` from the menu
 * Click `Create`
 * Add the following values:
