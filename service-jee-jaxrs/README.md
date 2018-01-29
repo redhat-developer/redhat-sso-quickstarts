@@ -4,14 +4,14 @@ service-jee-jaxrs: JAX-RS Service
 Level: Beginner
 Technologies: JavaEE
 Summary: JAX-RS Service
-Target Product: <span>Keycloak</span>, <span>WildFly</span>
+Target Product: Red Hat SSO, JBoss EAP
 Source: <https://github.com/keycloak/keycloak-quickstarts>
 
 
 What is it?
 -----------
 
-The `service-jee-jaxrs` quickstart demonstrates how to write a RESTful service with JAX-RS that is secured with <span>Keycloak</span>.
+The `service-jee-jaxrs` quickstart demonstrates how to write a RESTful service with JAX-RS that is secured with Red Hat SSO.
 
 There are 3 endpoints exposed by the service:
 
@@ -25,19 +25,19 @@ The endpoints are very simple and will only return a simple message stating what
 System Requirements
 -------------------
 
-You need to have <span>WildFly 10</span> running.
+You need to have JBoss EAP 7.1.0 running.
 
 All you need to build this project is Java 8.0 (Java SDK 1.8) or later and Maven 3.1.1 or later.
 
 
-Configuration in <span>Keycloak</span>
+Configuration in Red Hat SSO
 -----------------------
 
-Prior to running the quickstart you need to create a client in <span>Keycloak</span> and download the installation file.
+Prior to running the quickstart you need to create a client in Red Hat SSO and download the installation file.
 
 The following steps shows how to create the client required for this quickstart:
 
-* Open the <span>Keycloak</span> admin console
+* Open the Red Hat SSO admin console
 * Select `Clients` from the menu
 * Click `Create`
 * Add the following values:
@@ -76,7 +76,7 @@ Build and Deploy the Quickstart
    mvn clean wildfly:deploy
    ````
 
-If you prefer to secure WARs via <span>Keycloak</span> subsystem:
+If you prefer to secure WARs via Red Hat SSO subsystem:
 
    ````
    mvn install -Dsubsystem wildfly:deploy
@@ -100,7 +100,7 @@ invoking with a bearer token. To invoke these endpoints use one of the example q
 Integration test of the Quickstart
 ----------------------------------
 
-1. Make sure you have an <span>Keycloak</span> server running with an admin user in the `master` realm or use the provided docker image
+1. Make sure you have an Red Hat SSO server running with an admin user in the `master` realm or use the provided docker image
 2. Be sure to set the `TestHelper.keycloakBaseUrl` in the `createArchive` method.
 3. Run `mvn clean install -Pwildfly-managed`
 

@@ -19,13 +19,13 @@
     <parent>
         <groupId>org.keycloak.quickstarts</groupId>
         <artifactId>keycloak-quickstart-parent</artifactId>
-        <version>3.4.3.Final-SNAPSHOT</version>
+        <version>3.4.3.Final-redhat-2</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>keycloak-app-authz-jee-servlet</artifactId>
     <packaging>war</packaging>
-    <name>Keycloak Quickstart: app-authz-jee-servlet</name>
+    <name>Red Hat SSO Quickstart: app-authz-jee-servlet</name>
     <description>app-authz-jee-servlet</description>
     <licenses>
         <license>
