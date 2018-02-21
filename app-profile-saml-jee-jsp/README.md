@@ -50,6 +50,24 @@ If you deploy the application somewhere else change the hostname and port of the
 To be able to retrieve the profile details next click on `Mappers`. Then click on `Add Builtin` and select all the
 mappers before clicking `Add selected`.
 
+The application will only provide access to users with the role 'user'. Create a new role for the SAML client:
+
+* Open the Red Hat SSO admin console
+* Select `Client` and select the new SAML client
+* Select `Roles` and `Add Role`
+  * Role name: `user`
+  * Description: `Basic user role`
+  * Scope Param Required: `OFF`
+* Click `Save`
+
+Now that the role is created, assign it to your users:
+
+* Select `Users`
+* Create or select an existing user
+* Select the user, and select `Role Mappings`
+* Under the `Client Roles` dropdown, select the new SAML client
+* From `Available Roles` select `user`. and select `Add Selected >>`
+
 Finally you need to configure the adapter, this is done by retrieving the adapter configuration file:
 
 * Click on `Installation` in the tab for the client you created
