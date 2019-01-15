@@ -90,8 +90,8 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.keycloak.bom</groupId>
-                <artifactId>keycloak-adapter-bom</artifactId>
+                <groupId>com.redhat.bom.rh-sso</groupId>
+                <artifactId>rh-sso-adapter-bom</artifactId>
                 <version>${version.keycloak}</version>
                 <type>pom</type>
                 <scope>import</scope>

@@ -23,7 +23,7 @@
         <version>4.8.3.Final</version>
     </parent>
 
-    <name>Keycloak Quickstart: Event Store In-Mem</name>
+    <name>Red Hat SSO Quickstart: Event Store In-Mem</name>
     <description/>
     <modelVersion>4.0.0</modelVersion>
 

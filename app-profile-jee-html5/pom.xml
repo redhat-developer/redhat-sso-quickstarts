@@ -25,7 +25,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>keycloak-app-profile-jee-html5</artifactId>
     <packaging>war</packaging>
-    <name>Keycloak Quickstart: app-profile-jee-html5</name>
+    <name>Red Hat SSO Quickstart: app-profile-jee-html5</name>
     <description>HTML5 Profile Application packaged as a WAR</description>
     <licenses>
         <license>

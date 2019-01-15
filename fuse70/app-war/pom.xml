@@ -27,7 +27,7 @@
     <artifactId>keycloak-fuse70-app-war-jsp</artifactId>
     <version>4.8.3.Final</version>
     <packaging>war</packaging>
-    <name>Keycloak Quickstart: Fuse 7.0 WAR frontend application</name>
+    <name>Red Hat SSO Quickstart: Fuse 7.0 WAR frontend application</name>
     <description>JBoss Fuse 7.0 WAR frontend application secured by Keycloak</description>
 
     <licenses>

@@ -26,7 +26,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>app-authz-photoz-parent</artifactId>
     <packaging>pom</packaging>
-    <name>Keycloak Quickstart: PhotoZ Example Application Parent</name>
+    <name>Red Hat SSO Quickstart: PhotoZ Example Application Parent</name>
     <description>PhotoZ Example Application</description>
     <licenses>
         <license>

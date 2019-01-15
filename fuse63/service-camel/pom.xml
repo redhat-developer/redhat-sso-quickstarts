@@ -28,7 +28,7 @@
     <artifactId>keycloak-fuse63-service-camel</artifactId>
     <version>4.8.3.Final</version>
     <packaging>bundle</packaging>
-    <name>Keycloak Quickstart: JBoss Fuse 6.3 Service - Camel</name>
+    <name>Red Hat SSO Quickstart: JBoss Fuse 6.3 Service - Camel</name>
     <description>JBoss Fuse Apache Camel 6.3 Service secured by Keycloak</description>
 
     <licenses>

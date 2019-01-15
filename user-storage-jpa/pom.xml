@@ -26,7 +26,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>keycloak-user-storage-jpa</artifactId>
     <packaging>jar</packaging>
-    <name>Keycloak Quickstart: user-storage-jpa</name>
+    <name>Red Hat SSO Quickstart: user-storage-jpa</name>
     <description>User Storage Provider with EJB and JPA</description>
 
     <licenses>

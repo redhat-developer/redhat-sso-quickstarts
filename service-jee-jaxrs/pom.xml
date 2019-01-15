@@ -25,7 +25,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>keycloak-service-jee-jaxrs</artifactId>
     <packaging>war</packaging>
-    <name>Keycloak Quickstart: service-jee-jaxrs</name>
+    <name>Red Hat SSO Quickstart: service-jee-jaxrs</name>
     <description>JAX-RS Service</description>
     <licenses>
         <license>

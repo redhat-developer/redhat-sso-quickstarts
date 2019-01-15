@@ -30,7 +30,7 @@
     <artifactId>keycloak-fuse63-server</artifactId>
     <version>4.8.3.Final</version>
     <packaging>pom</packaging>
-    <name>Keycloak Quickstart: JBoss Fuse 6.3 Server</name>
+    <name>Red Hat SSO Quickstart: JBoss Fuse 6.3 Server</name>
     <description>Quickstart JBoss Fuse 6.3 Server</description>
 
     <dependencies>

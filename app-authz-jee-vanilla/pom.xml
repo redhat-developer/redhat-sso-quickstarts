@@ -25,7 +25,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>keycloak-app-authz-jee-vanilla</artifactId>
     <packaging>war</packaging>
-    <name>Keycloak Quickstart: app-authz-jee-vanilla</name>
+    <name>Red Hat SSO Quickstart: app-authz-jee-vanilla</name>
     <description>app-authz-jee-vanilla</description>
     <licenses>
         <license>

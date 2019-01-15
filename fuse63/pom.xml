@@ -39,7 +39,7 @@
         <service.url>http://localhost:8383/service</service.url>
     </properties>
 
-    <name>Keycloak Quickstart: Fuse 6.3 quickstarts parent</name>
+    <name>Red Hat SSO Quickstart: Fuse 6.3 quickstarts parent</name>
     <description>Parent of the JBoss Fuse 6.3 quickstarts</description>
 
     <licenses>

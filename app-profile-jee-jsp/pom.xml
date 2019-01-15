@@ -25,7 +25,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>keycloak-app-profile-jee-jsp</artifactId>
     <packaging>war</packaging>
-    <name>Keycloak Quickstart: app-profile-jee-jsp</name>
+    <name>Red Hat SSO Quickstart: app-profile-jee-jsp</name>
     <description>JSP Profile Application</description>
     <licenses>
         <license>

@@ -29,7 +29,7 @@
     <artifactId>keycloak-fuse70-features</artifactId>
     <version>4.8.3.Final</version>
     <packaging>pom</packaging>
-    <name>Keycloak Quickstart: Fuse 7.0 Features</name>
+    <name>Red Hat SSO Quickstart: Fuse 7.0 Features</name>
     <description>JBoss Fuse 7.0 features to simplify install all Keycloak Fuse quickstarts</description>
 
     <licenses>

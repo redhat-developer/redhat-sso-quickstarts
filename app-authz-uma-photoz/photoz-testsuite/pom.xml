@@ -26,7 +26,7 @@
     </parent>
     <artifactId>photoz-uma-testsuite</artifactId>
     <packaging>jar</packaging>
-    <name>Keycloak Quickstart: Photoz UMA Testsuite</name>
+    <name>Red Hat SSO Quickstart: Photoz UMA Testsuite</name>
     <description>Photoz UMA Testsuite</description>
 
     <properties>
