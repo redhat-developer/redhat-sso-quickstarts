@@ -20,7 +20,7 @@
     <parent>
         <artifactId>keycloak-quickstart-parent</artifactId>
         <groupId>org.keycloak.quickstarts</groupId>
-        <version>4.8.3.Final</version>
+        <version>4.8.3.Final-redhat-00001</version>
     </parent>
 
     <name>Red Hat SSO Quickstart: Event Listener System.out</name>
