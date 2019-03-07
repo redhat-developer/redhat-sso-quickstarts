@@ -166,7 +166,7 @@ public class ArquillianProfileJeeHtml5Test {
             indexPage.clickLogin();
             loginPage.login("test-admin", "password");
             profilePage.clickAccount();
-            assertEquals("Keycloak Account Management", webDriver.getTitle());
+            assertEquals("RH-SSO Account Management", webDriver.getTitle());
             webDriver.navigate().to(contextRoot);
             waitTillElementIsClickable(By.name("logoutBtn"));
             profilePage.clickLogout();
