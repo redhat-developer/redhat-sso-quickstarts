@@ -92,7 +92,7 @@
             <dependency>
                 <groupId>com.redhat.bom.rh-sso</groupId>
                 <artifactId>rh-sso-adapter-bom</artifactId>
-                <version>${version.keycloak}</version>
+                <version>${project.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
