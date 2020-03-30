@@ -20,13 +20,13 @@
     <parent>
         <groupId>org.keycloak.quickstarts</groupId>
         <artifactId>app-authz-uma-photoz-parent</artifactId>
-        <version>9.0.4-SNAPSHOT</version>
+        <version>7.4.0.GA</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>photoz-uma-html5-client</artifactId>
     <packaging>war</packaging>
-    <name>Keycloak Quickstart: Photoz UMA HTML5 Client</name>
+    <name>Red Hat SSO Quickstart: Photoz UMA HTML5 Client</name>
     <description>Photoz UMA HTML5 Client</description>
 
     <build>

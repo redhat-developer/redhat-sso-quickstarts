@@ -20,10 +20,10 @@
     <parent>
         <artifactId>keycloak-quickstart-parent</artifactId>
         <groupId>org.keycloak.quickstarts</groupId>
-        <version>9.0.4-SNAPSHOT</version>
+        <version>7.4.0.GA</version>
     </parent>
 
-    <name>Keycloak Quickstart: Event Store In-Mem</name>
+    <name>Red Hat SSO Quickstart: Event Store In-Mem</name>
     <description/>
     <modelVersion>4.0.0</modelVersion>
 

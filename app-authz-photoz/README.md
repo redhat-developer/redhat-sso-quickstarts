@@ -4,7 +4,7 @@ app-authz-uma-photoz: HTML5 + AngularJS client application that interacts with a
 Level: Beginner  
 Technologies: JAX-RS, HTML5, AngularJS  
 Summary: AngularJS client application that accesses a protected RESTFul API based on JAX-RS  
-Target Product: <span>Keycloak</span>, <span>WildFly</span>
+Target Product: Red Hat SSO, JBoss EAP
 Source: <https://github.com/keycloak/keycloak-quickstarts>  
 
 What is it?

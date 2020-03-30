@@ -21,13 +21,13 @@
     <parent>
         <groupId>org.keycloak.quickstarts</groupId>
         <artifactId>app-authz-uma-photoz-parent</artifactId>
-        <version>9.0.4-SNAPSHOT</version>
+        <version>7.4.0.GA</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>photoz-uma-js-policies</artifactId>
     <packaging>jar</packaging>
-    <name>Keycloak Quickstarts: Photoz JS Policies</name>
+    <name>Red Hat SSO Quickstarts: Photoz JS Policies</name>
     <description>JS Policies</description>
 
     <build>
