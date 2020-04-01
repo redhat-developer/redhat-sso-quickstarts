@@ -19,15 +19,15 @@
     <parent>
         <artifactId>keycloak-fuse70-parent</artifactId>
         <groupId>org.keycloak.quickstarts</groupId>
-        <version>9.0.4-SNAPSHOT</version>
+        <version>7.4.0.GA</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>keycloak-fuse70-app-war-jsp</artifactId>
-    <version>9.0.4-SNAPSHOT</version>
+    <version>7.4.0.GA</version>
     <packaging>war</packaging>
-    <name>Keycloak Quickstart: Fuse 7.0 WAR frontend application</name>
+    <name>Red Hat SSO Quickstart: Fuse 7.0 WAR frontend application</name>
     <description>JBoss Fuse 7.0 WAR frontend application secured by Keycloak</description>
 
     <licenses>

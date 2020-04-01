@@ -21,9 +21,9 @@
 
     <groupId>org.keycloak.quickstarts</groupId>
     <artifactId>keycloak-quickstart-parent</artifactId>
-    <version>9.0.4-SNAPSHOT</version>
+    <version>7.4.0.GA</version>
     <packaging>pom</packaging>
-    <name>Keycloak Quickstart: parent</name>
+    <name>Red Hat SSO Quickstart: parent</name>
     <description>Parent</description>
 
     <licenses>
@@ -36,7 +36,7 @@
 
     <properties>
         <version.wildfly>14.0.1.Final</version.wildfly>
-        <version.keycloak>${project.version}</version.keycloak>
+        <version.keycloak>9.0.4</version.keycloak>
 
         <version.wildfly.maven.plugin>1.2.2.Final</version.wildfly.maven.plugin>
         <servlet.api.30.version>1.0.2.Final</servlet.api.30.version>
@@ -100,22 +100,22 @@
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>org.keycloak.bom</groupId>
-                <artifactId>keycloak-adapter-bom</artifactId>
+                <groupId>com.redhat.bom.rh-sso</groupId>
+                <artifactId>rh-sso-adapter-bom</artifactId>
                 <version>${version.keycloak}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.keycloak.bom</groupId>
-                <artifactId>keycloak-misc-bom</artifactId>
+                <groupId>com.redhat.bom.rh-sso</groupId>
+                <artifactId>rh-sso-misc-bom</artifactId>
                 <version>${version.keycloak}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.keycloak.bom</groupId>
-                <artifactId>keycloak-spi-bom</artifactId>
+                <groupId>com.redhat.bom.rh-sso</groupId>
+                <artifactId>rh-sso-spi-bom</artifactId>
                 <version>${version.keycloak}</version>
                 <type>pom</type>
                 <scope>import</scope>
@@ -198,16 +198,20 @@
         <module>app-authz-uma-photoz</module>
         <module>app-authz-photoz</module>
     </modules>
-
+ 
     <repositories>
         <repository>
-            <id>jboss</id>
-            <url>https://repository.jboss.org/nexus/content/groups/public/</url>
+            <id>jboss-enterprise-maven-repository</id>
+            <url>https://maven.repository.redhat.com/ga/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
         </repository>
     </repositories>
+
 
     <build>
         <pluginManagement>
@@ -315,7 +319,20 @@
                 <module>service-springboot-rest</module>
                 <module>app-springboot</module>
                 <module>app-authz-springboot</module>
-            </modules>
+    </modules>
+ 
+    <repositories>
+        <repository>
+            <id>jboss-enterprise-maven-repository</id>
+            <url>https://maven.repository.redhat.com/ga/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
         </profile>
         <profile>
             <id>jboss-cli-executable</id>
