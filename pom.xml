@@ -314,8 +314,6 @@
                 <module>fuse70</module>
                 <module>user-storage-simple</module>
                 <module>user-storage-jpa</module>
-                <module>event-listener-sysout</module>
-                <module>event-store-mem</module>
                 <module>service-springboot-rest</module>
                 <module>app-springboot</module>
                 <module>app-authz-springboot</module>
