@@ -20,13 +20,13 @@
     <parent>
         <groupId>org.keycloak.quickstarts</groupId>
         <artifactId>keycloak-quickstart-parent</artifactId>
-        <version>9.0.4-SNAPSHOT</version>
+        <version>7.4.0.GA</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>app-authz-uma-photoz-parent</artifactId>
     <packaging>pom</packaging>
-    <name>Keycloak Quickstart: PhotoZ UMA 2.0 Example Application Parent</name>
+    <name>Red Hat SSO Quickstart: PhotoZ UMA 2.0 Example Application Parent</name>
     <description>PhotoZ UMA 2.0 Example Application</description>
     <licenses>
         <license>

@@ -1,8 +1,8 @@
-# <span>Keycloak</span> Quickstarts
+# Red Hat SSO Quickstarts
 
-<span>Keycloak</span> is an Open Source Identity and Access Management solution for modern Applications and Services.
+Red Hat SSO is an Open Source Identity and Access Management solution for modern Applications and Services.
 
-The quickstarts demonstrate securing applications with <span>Keycloak</span>. They provide small, specific, working examples
+The quickstarts demonstrate securing applications with Red Hat SSO. They provide small, specific, working examples
 that can be used as a reference for your own project.
 
 ## Help and Documentation

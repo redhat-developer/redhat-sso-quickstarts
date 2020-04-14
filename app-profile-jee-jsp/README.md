@@ -4,7 +4,7 @@ app-profile-jee-jsp: JSP Profile Application
 Level: Beginner
 Technologies: JavaEE
 Summary: JSP Profile Application
-Target Product: <span>Keycloak</span>, <span>WildFly</span>
+Target Product: Red Hat SSO, JBoss EAP
 Source: <https://github.com/keycloak/keycloak-quickstarts>
 
 
@@ -12,26 +12,26 @@ What is it?
 -----------
 
 The `app-profile-jee-jsp` quickstart demonstrates how to write an application with JavaEE that
-authenticates using <span>Keycloak</span>. Once authenticated the application shows the users profile information and can also
-display the token retrieved from <span>Keycloak</span>.
+authenticates using Red Hat SSO. Once authenticated the application shows the users profile information and can also
+display the token retrieved from Red Hat SSO.
 
 
 System Requirements
 ------------
 
-If you are deploying the application as a WAR you need to have <span>WildFly 10</span> running.
+If you are deploying the application as a WAR you need to have JBoss EAP 7.1.0 running.
 
 All you need to build this project is Java 8.0 (Java SDK 1.8) or later and Maven 3.1.1 or later.
 
 
-Configuration in <span>Keycloak</span>
+Configuration in Red Hat SSO
 -----------------------
 
-Prior to running the quickstart you need to create a client in <span>Keycloak</span> and download the installation file.
+Prior to running the quickstart you need to create a client in Red Hat SSO and download the installation file.
 
 The following steps shows how to create the client required for this quickstart:
 
-* Open the <span>Keycloak</span> admin console
+* Open the Red Hat SSO admin console
 * Select `Clients` from the menu
 * Click `Create`
 * Add the following values:
@@ -66,7 +66,7 @@ Build and Deploy the Quickstart
    mvn clean wildfly:deploy
    ````
 
-If you prefer to secure WARs via <span>Keycloak</span> subsystem:
+If you prefer to secure WARs via Red Hat SSO subsystem:
 
    ````
    mvn install -Dsubsystem wildfly:deploy
@@ -81,7 +81,7 @@ You can access the application with the following URL: <http://localhost:8080/ap
 Undeploy the Quickstart
 --------------------
 
-1. Open a terminal and navigate to the root of the <span>Keycloak</span> server directory.
+1. Open a terminal and navigate to the root of the Red Hat SSO server directory.
 
 2. The following shows the command to undeploy the quickstart:
 

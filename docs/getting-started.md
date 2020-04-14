@@ -1,11 +1,11 @@
 # Getting started
 
-These quickstarts run on <span>WildFly 10</span>.
+These quickstarts run on JBoss EAP 7.1.0.
 
 Prior to running the quickstarts you should read this entire document and have completed the following steps:
 
-* [Start and configure the <span>Keycloak</span> Server](#keycloak)
-* [Start and configure the <span>WildFly</span> Server](#wildfly)
+* [Start and configure the Red Hat SSO Server](#keycloak)
+* [Start and configure the JBoss EAP Server](#wildfly)
 
 Afterwards you should read the README file for the quickstart you would like to deploy. See [examples](#examples) for
 a list of the available quickstarts.
@@ -13,61 +13,61 @@ a list of the available quickstarts.
 If you run into any problems please refer to the [troubleshooting](#troubleshooting) section.
 
 
-## Use of <span>KEYCLOAK_HOME</span> and <span>WILDFLY_HOME</span> Variables
+## Use of RHSSO_HOME and EAP_HOME Variables
 
-The quickstart README files use the replaceable value <span>KEYCLOAK_HOME</span> to denote the path to the <span>Keycloak</span> installation and the
-value <span>WILDFLY_HOME</span> to denote the path to the <span>WildFly</span> installation. When you encounter this value in a README file, be sure
+The quickstart README files use the replaceable value RHSSO_HOME to denote the path to the Red Hat SSO installation and the
+value EAP_HOME to denote the path to the JBoss EAP installation. When you encounter this value in a README file, be sure
 to replace it with the actual path to your installations.
 
 
 ## System Requirements
 
-The applications these projects produce are designed to be run on <span>WildFly</span> Application Server 10.
+The applications these projects produce are designed to be run on JBoss EAP Application Server 10.
 
 All you need to build these projects is Java 8.0 (Java SDK 1.8) or later and Maven 3.1.1 or later.
 
 
-## <a id="keycloak"></a>Start the <span>Keycloak</span> Server
+## <a id="keycloak"></a>Start the Red Hat SSO Server
 
-By default the <span>Keycloak</span> Server uses the same ports as the <span>WildFly</span> Server. To run the quickstarts you can either run the
- <span>Keycloak</span> Server on a separate host (machine, VM, Docker, etc..) or on different ports.
+By default the Red Hat SSO Server uses the same ports as the JBoss EAP Server. To run the quickstarts you can either run the
+ Red Hat SSO Server on a separate host (machine, VM, Docker, etc..) or on different ports.
 
-To start the <span>Keycloak</span> server on a separate host:
+To start the Red Hat SSO server on a separate host:
 
-1. Open a terminal on the separate machine and navigate to the root of the <span>Keycloak</span> server directory.
+1. Open a terminal on the separate machine and navigate to the root of the Red Hat SSO server directory.
 
-2. The following shows the command to start the <span>Keycloak</span> server:
-
-   ````
-   For Linux:   KEYCLOAK_HOME/bin/standalone.sh -b 0.0.0.0
-   For Windows: KEYCLOAK_HOME\bin\standalone.bat -b 0.0.0.0
-   ````
-
-3. The URL of the <span>Keycloak</span> server will be http://&lt;HOSTNAME&gt;:8080 (replace &lt;HOSTNAME&gt; with the hostname of the separate host).
-
-To start the <span>Keycloak</span> server on different ports:
-
-1. Open a terminal and navigate to the root of the <span>Keycloak</span> server directory.
-
-2. The following shows the command to start the <span>Keycloak</span> server:
+2. The following shows the command to start the Red Hat SSO server:
 
    ````
-   For Linux:   KEYCLOAK_HOME/bin/standalone.sh -Djboss.socket.binding.port-offset=100
-   For Windows: KEYCLOAK_HOME\bin\standalone.bat -Djboss.socket.binding.port-offset=100
+   For Linux:   RHSSO_HOME/bin/standalone.sh -b 0.0.0.0
+   For Windows: RHSSO_HOME\bin\standalone.bat -b 0.0.0.0
    ````
 
-3. The URL of the <span>Keycloak</span> server will be http://localhost:8180
+3. The URL of the Red Hat SSO server will be http://&lt;HOSTNAME&gt;:8080 (replace &lt;HOSTNAME&gt; with the hostname of the separate host).
+
+To start the Red Hat SSO server on different ports:
+
+1. Open a terminal and navigate to the root of the Red Hat SSO server directory.
+
+2. The following shows the command to start the Red Hat SSO server:
+
+   ````
+   For Linux:   RHSSO_HOME/bin/standalone.sh -Djboss.socket.binding.port-offset=100
+   For Windows: RHSSO_HOME\bin\standalone.bat -Djboss.socket.binding.port-offset=100
+   ````
+
+3. The URL of the Red Hat SSO server will be http://localhost:8180
 
 ## <a id="add-admin"></a>Add Admin User
 
-Open the main page for the <span>Keycloak</span> server ([localhost:8180](http://localhost:8180) or http://&lt;HOSTNAME&gt;:8080). If
-this is a new installation of <span>Keycloak</span> server you will be instructed to create an initial admin user. To continue with
+Open the main page for the Red Hat SSO server ([localhost:8180](http://localhost:8180) or http://&lt;HOSTNAME&gt;:8080). If
+this is a new installation of Red Hat SSO server you will be instructed to create an initial admin user. To continue with
 the quickstarts you need to do this prior to continuing.
 
 ## <a id="add-roles-user"></a>Create Roles and User
 
 To be able to use the examples you need to create some roles as well as at least one sample user. To do first this open
-the <span>Keycloak</span> admin console ([localhost:8180/auth/admin](http://localhost:8180/auth/admin) or http://&lt;HOSTNAME&gt;:8080/auth/admin) and
+the Red Hat SSO admin console ([localhost:8180/auth/admin](http://localhost:8180/auth/admin) or http://&lt;HOSTNAME&gt;:8080/auth/admin) and
 login with the admin user you created in the [add admin user](#add-admin) section.
 
 Start by creating a user role:
@@ -101,47 +101,47 @@ One more step, if you want to access the examples with the admin user you need t
 * Click `Role Mappings`
 * Select `user` under `Available Roles` and click `Add selected`
 
-## <a id="wildfly"></a>Start and Configure the <span>WildFly</span> Server
+## <a id="wildfly"></a>Start and Configure the JBoss EAP Server
 
-Before starting the <span>WildFly</span> Server start by extracting the <span>Keycloak</span> client adapter into it.
+Before starting the JBoss EAP Server start by extracting the Red Hat SSO client adapter into it.
 
-For <span>WildFly 10</span> extract `keycloak-wildfly-adapter-${project.version}.zip` into <span>WILDFLY_HOME</span>.
+For JBoss EAP 7.1.0 extract `keycloak-wildfly-adapter-${project.version}.zip` into EAP_HOME.
 
-If you plan to try the SAML examples you also need the SAML <span>WildFly</span> adapter. To do this for <span>WildFly 10</span>
-`keycloak-saml-wildfly-adapter-dist-${project.version}.zip` into <span>WILDFLY_HOME</span>.
+If you plan to try the SAML examples you also need the SAML JBoss EAP adapter. To do this for JBoss EAP 7.1.0
+`keycloak-saml-wildfly-adapter-dist-${project.version}.zip` into EAP_HOME.
 
-The next step is to start <span>WildFly</span> server:
+The next step is to start JBoss EAP server:
 
-1. Open a terminal and navigate to the root of the <span>WildFly</span> server directory.
-2. Use the following command to start the <span>WildFly</span> server:
+1. Open a terminal and navigate to the root of the JBoss EAP server directory.
+2. Use the following command to start the JBoss EAP server:
    ````
-   For Linux:   WILDFLY_HOME/bin/standalone.sh
-   For Windows: WILDFLY_HOME\bin\standalone.bat
+   For Linux:   EAP_HOME/bin/standalone.sh
+   For Windows: EAP_HOME\bin\standalone.bat
    ````
-3. To install the <span>Keycloak</span> adapter run the following commands:
-   ````
-   For Linux:
-
-     WILDFLY_HOME/bin/jboss-cli.sh -c --file=WILDFLY_HOME/bin/adapter-install.cli
-     WILDFLY_HOME/bin/jboss-cli.sh -c --command=:reload
-
-   For Windows:
-
-    WILDFLY_HOME\bin\jboss-cli.bat -c --file=WILDFLY_HOME\bin\adapter-install.cli
-    WILDFLY_HOME\bin\jboss-cli.bat -c --command=:reload
-   ````
-4. If you plan to try the SAML examples you also need to install <span>Keycloak</span> SAML adapter:
-
+3. To install the Red Hat SSO adapter run the following commands:
    ````
    For Linux:
 
-     WILDFLY_HOME/bin/jboss-cli.sh -c --file=WILDFLY_HOME/bin/adapter-install-saml.cli
-     WILDFLY_HOME/bin/jboss-cli.sh -c --command=:reload
+     EAP_HOME/bin/jboss-cli.sh -c --file=EAP_HOME/bin/adapter-install.cli
+     EAP_HOME/bin/jboss-cli.sh -c --command=:reload
 
    For Windows:
 
-     WILDFLY_HOME\bin\jboss-cli.bat -c --file=WILDFLY_HOME\bin\adapter-install-saml.cli
-     WILDFLY_HOME\bin\jboss-cli.bat -c --command=:reload
+    EAP_HOME\bin\jboss-cli.bat -c --file=EAP_HOME\bin\adapter-install.cli
+    EAP_HOME\bin\jboss-cli.bat -c --command=:reload
+   ````
+4. If you plan to try the SAML examples you also need to install Red Hat SSO SAML adapter:
+
+   ````
+   For Linux:
+
+     EAP_HOME/bin/jboss-cli.sh -c --file=EAP_HOME/bin/adapter-install-saml.cli
+     EAP_HOME/bin/jboss-cli.sh -c --command=:reload
+
+   For Windows:
+
+     EAP_HOME\bin\jboss-cli.bat -c --file=EAP_HOME\bin\adapter-install-saml.cli
+     EAP_HOME\bin\jboss-cli.bat -c --command=:reload
    ````
 
 # Examples
