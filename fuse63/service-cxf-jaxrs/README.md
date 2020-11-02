@@ -51,7 +51,7 @@ Once saved you need to change the `Access Type` to `bearer-only` and click save.
 Finally you need to configure the adapter, this is done by retrieving the adapter configuration file:
 
 * Click on `Installation` in the tab for the client you created
-* Select `<span>Keycloak</span> OIDC JSON`
+* Select `Red Hat SSO OIDC JSON`
 * Click `Download`
 * Move the file `keycloak.json` to the directory `src/main/resources/config/`in the quickstart
 

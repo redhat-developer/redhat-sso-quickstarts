@@ -48,7 +48,7 @@ If you deploy the application somewhere else change the hostname and port of the
 Finally you need to configure the adapter, this is done by retrieving the adapter configuration file:
 
 * Click on `Installation` in the tab for the client you created
-* Select `<span>Keycloak</span> OIDC JSON`
+* Select `Red Hat SSO OIDC JSON`
 * Click `Download`
 * Move the file `keycloak.json` to the `config/` directory in the root of the quickstart
 

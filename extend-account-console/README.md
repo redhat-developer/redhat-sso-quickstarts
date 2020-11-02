@@ -4,7 +4,7 @@ extend-account-console: Learn to extend the Account Console
 Level: Beginner
 Technologies: PatternFly, React, JSX
 Summary: "Keycloak Man" theme that extends Account Console
-Target Product: <span>Keycloak</span>
+Target Product: Red Hat SSO
 Source: <https://github.com/keycloak/Keycloak-quickstarts>
 
 
@@ -28,7 +28,7 @@ There is nothing required to build this project.  However, if you want to do the
 It is also recommended that you read about Keycloak themes in the Server Developer guide. 
 
 
-Configuration in <span>Keycloak</span>
+Configuration in Red Hat SSO
 -----------------------
 
 1. Copy the ``keycloak-man`` folder to your ``<keycloak install>/themes`` directory.
