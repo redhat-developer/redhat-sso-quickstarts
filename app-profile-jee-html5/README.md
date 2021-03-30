@@ -5,7 +5,7 @@ Level: Beginner
 Technologies: HTML5, JavaScript  
 Summary: HTML5 Profile Application packaged as a WAR  
 Target Product: Red Hat SSO, JBoss EAP  
-Source: <https://github.com/keycloak/keycloak-quickstarts>
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>
 
 
 What is it?

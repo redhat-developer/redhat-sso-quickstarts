@@ -5,7 +5,7 @@ Level: Beginner
 Technologies: SpringBoot
 Summary: SpringBoot REST Service
 Target Product: Red Hat SSO
-Source: <https://github.com/keycloak/Red Hat SSO-quickstarts>
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>
 
 
 What is it?

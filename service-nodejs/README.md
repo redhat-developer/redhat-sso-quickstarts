@@ -5,7 +5,7 @@ Level: Beginner
 Technologies: Node.js  
 Summary: Node.js Service  
 Target Product: Red Hat SSO, JBoss EAP  
-Source: <https://github.com/keycloak/keycloak-quickstarts>
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>
 
 
 What is it?

@@ -5,7 +5,7 @@ Level: Beginner
 Technologies: SpringBoot, Spring MVC, Spring Security
 Summary: SpringBoot, Spring MVC, Spring Security
 Target Product: Red Hat SSO
-Source: <https://github.com/keycloak/Keycloak-quickstarts>
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>
 
 
 What is it?
