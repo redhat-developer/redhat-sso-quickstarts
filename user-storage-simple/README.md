@@ -5,7 +5,7 @@ Level: Beginner
 Technologies: JavaEE  
 Summary: User Storage SPI Simple Example  
 Target Product: Red Hat SSO  
-Source: <https://github.com/keycloak/keycloak-quickstarts>  
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>  
 
 
 What is it?

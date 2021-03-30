@@ -5,7 +5,7 @@ Level: Beginner
 Technologies: JavaEE, EJB, JPA  
 Summary: User Storage Provider with EJB and JPA  
 Target Product: Red Hat SSO  
-Source: <https://github.com/keycloak/keycloak-quickstarts>  
+Source: <https://github.com/redhat-developer/redhat-sso-quickstarts>  
 
 
 What is it?
