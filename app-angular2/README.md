@@ -20,7 +20,7 @@ As the example only contains static html pages the files in `src/main/webapp` ca
 System Requirements
 -------------------
 
-The quickstart requires that you have the [example services](../service-jee-jaxrs/README.md) running. It assumes the
+The quickstart requires that you have one of the [example services](../service-jee-jaxrs/README.md) or [Node.js example services](../service-nodejs/README.md) running. It assumes the
 services are located at `http://localhost:8080/service`. If the services are running elsewhere you need to edit
 `app.component.ts` and replace the value of `serviceUrl`.  Then transpile using `npm run build` from the webapp
 directory.
@@ -29,7 +29,7 @@ If you are deploying the application as a WAR you need to have JBoss EAP 7.1.0 r
 
 To build this project, you will need nodejs/npm.  To make modifications you will
 need to install TypeScript.  For nodejs/npm, go to `https://nodejs.org`.  Once installed,
-the the following command will install TypeScript:
+the following command will install TypeScript:
 ````
 npm install -g typescript
 ````

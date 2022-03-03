@@ -20,7 +20,7 @@ As the example only contains static html pages the files in `src/main/webapp` ca
 System Requirements
 -------------------
 
-The quickstart requires that you have the [example services](../service-jee-jaxrs/README.md) running. It assumes the
+The quickstart requires that you have one of the [example services](../service-jee-jaxrs/README.md) or [Node.js example services](../service-nodejs/README.md) running. It assumes the
 services are located at `http://localhost:8080/service`. If the services are running elsewhere you need to edit
 `app.js` and replace the value of `serviceUrl`.
 
