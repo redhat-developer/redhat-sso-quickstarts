@@ -18,7 +18,7 @@ using Red Hat SSO. Once authenticated the application shows how to invoke a serv
 System Requirements
 -------------------
 
-The quickstart requires that you have the [example services](../service-jee-jaxrs/README.md) running. It assumes the
+The quickstart requires that you have one of the [example services](../service-jee-jaxrs/README.md) or [Node.js example services](../service-nodejs/README.md) running. It assumes the
 services are located on the same host as the application. If the service is running elsewhere you need to set the URL
 of the service as an environment variable (SERVICE_URL) and restart JBoss EAP.
 

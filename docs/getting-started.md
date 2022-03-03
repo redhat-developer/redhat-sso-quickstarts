@@ -156,6 +156,7 @@ The next step is to start JBoss EAP server:
 * [app-profile-saml-jee-jsp](../app-profile-saml-jee-jsp/README.md) - JSP application that uses SAML and displays user profile.
 * [app-springboot](../app-springboot/README.md) - SpringBoot application that is secured with Keycloak. [Requires SpringBoot Service](../service-springboot-rest/README.md).
 * [service-jee-jaxrs](../service-jee-jaxrs/README.md) - JAX-RS Service with public and protected endpoints.
+* [service-nodejs](../service-nodejs/README.md) - Node.js Service with public and protected endpoints.
 
 
 # Troubleshooting
